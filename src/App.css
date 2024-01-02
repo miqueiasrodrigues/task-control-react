@@ -1,38 +1,99 @@
-.App {
-  text-align: center;
+.main {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--cor-blue);
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.content{
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-around;
+  padding: 20px 0px;
+}
+
+
+.content .form{
+  display: flex;
+  align-items: center;
+  padding: 0px 35px;
+  height: 100%;
+  justify-content: space-around;
+}
+
+.bar-buttons{
+  display: flex;
+  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.content .form .row{
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  width: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.data-list{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.data-list ul{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.data-list li{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.data-list li:last-child{
+  margin-bottom: 0px
+}
+
+.data-list .task{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.data-list .task-icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.data-list .task-info{
+  display: flex;
+ flex-direction: column;
+ align-items: start;
+}
+
+.data-list .task-info .title{
+  text-align: justify;
+  font-size: 1.5em;
+  font-weight: bold;
+  padding-bottom: 2px;
+}
+.data-list .task-info .description{
+  font-size: 0.8em;
+  padding-bottom: 2px;
+}
+
+.data-list .task-info .time{
+  font-size: 0.8em;
 }

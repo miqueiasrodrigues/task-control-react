@@ -1,0 +1,36 @@
+.header{
+    height: 10%;
+    background-color: var(--cor-purple);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+.header .logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header .logo .title{
+    color: #f2f2f2;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.nav{
+    display: flex;
+    width: 100px;
+    height: 100%;
+    align-items: center;
+}
+
+.header .nav ul{
+    display: flex;
+}
+
+.header .nav li{
+    padding: 0px 10px;
+}

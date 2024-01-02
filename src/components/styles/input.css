@@ -1,0 +1,20 @@
+.input-box{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.input {
+    font-family: inherit;
+
+    height: 36px;
+    font-size: 16px;
+    padding: 4px 10px;
+    border-radius: 12px;
+    border: 0;
+    background-color: #ffffff;
+}
+
+.input:read-only{
+    background-color: #cccccc;
+}
