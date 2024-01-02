@@ -12,7 +12,6 @@ Bem-vindo ao Task Control, um aplicativo web baseado em React para gerenciamento
 
 - Gerenciamento de tarefas com uma interface intuitiva.
 - Integração fácil com uma API backend para armazenamento e recuperação de dados de tarefas.
-- [Adicione outros recursos ou funcionalidades significativas.]
 
 ## Como Começar
 
