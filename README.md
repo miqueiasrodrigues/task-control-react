@@ -6,7 +6,7 @@ Bem-vindo ao Task Control, um aplicativo web baseado em React para gerenciamento
 
 - **React:** Uma biblioteca JavaScript para construção de interfaces de usuário, tornando o aplicativo rápido e eficiente.
 - **Axios:** Um cliente HTTP baseado em promessas para fazer requisições à API backend.
-- **CSS e HTML**: Estilizar as páginas. 
+- **Tratamento de Erros**: Implementação de tratamento de erros, tanto na interação com o usuário quanto nas requisições para a API, visando uma experiência mais robusta.
 
 ## Recursos
 
